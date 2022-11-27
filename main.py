@@ -1,9 +1,9 @@
-
-import src.GameBoard
+from src.GameBoard import GameBoard
+from src.Knight import Knight
 
 def main():
-    game = GameBoard()
-    print(game.getWidth())
+    gameBoard = GameBoard()
+    print(gameBoard.getWidth())
 
 
 if __name__ == "__main__":

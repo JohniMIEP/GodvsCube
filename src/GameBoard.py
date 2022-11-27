@@ -1,11 +1,11 @@
 
 class GameBoard():
-    def __init__():
+    def __init__(self):
         self.WIDTH = 1000
         self.HEIGHT = 1000
         
-    def getWidth():
-        return this.WIDTH
+    def getWidth(self):
+        return self.WIDTH
     
-    def getHeight():
-        return this.HEIGHT
+    def getHeight(self):
+        return self.HEIGHT
